@@ -1,4 +1,4 @@
-# Neotweaks
+# Neotweaks // Indent set to 2 
 A simple plugin that adds/changes features that I think should be default for neovim. It adds a few sets and keybinds.
 
 The options that were changed were
@@ -13,6 +13,10 @@ The options that were changed were
 - scrolloff = 8
 - swapfile = false
 - hlsearch = false
+- shiftwidth = 2
+- softtabstop = 2
+- tabstop = 2
+
 
 ```
 I also added some keybinds that allow moving a line up or down, which I use in my workflow all the time
