@@ -1,7 +1,6 @@
 local augroup = vim.api.nvim_create_augroup("Neotweak", { clear = true })
 
 local function main()
-  vim.opt.termguicolors = true
   vim.opt.completeopt = { "menuone", "noselect", "noinsert", "popup" }
 	vim.opt.mouse = ""
 	vim.opt.number = true

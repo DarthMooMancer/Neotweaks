@@ -1,9 +1,8 @@
-# Neotweaks // termguicolors 
+# Neotweaks
 A simple plugin that adds/changes features that I think should be default for neovim. It adds a few sets and keybinds.
 
 The options that were changed were
 ```
-- termguicolors = true
 - completeopt = { "menuone", "noselect", "noinsert", "popup" }
 - mouse = ""
 - number = true
@@ -28,13 +27,11 @@ Lazy.nvim
 
 ```
 return {
-    "DarthMooMancer/Neotweaks"
+    "DarthMooMancer/Neotweaks",
+    config = function ()
+        require("Neotweaks").setup()
+    end
 }
-```
-In your init.lua, you need to have the plugin above everything, being that you require it first.
-
-```
-require('Neotweaks').setup()
 ```
 
 Plug
