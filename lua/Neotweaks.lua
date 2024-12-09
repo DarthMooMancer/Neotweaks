@@ -1,6 +1,7 @@
 local augroup = vim.api.nvim_create_augroup("Neotweak", { clear = true })
 
 local function main()
+  vim.opt.termguicolors = true
   vim.opt.completeopt = { "menuone", "noselect", "noinsert", "popup" }
 	vim.opt.mouse = ""
 	vim.opt.number = true
@@ -11,11 +12,6 @@ local function main()
 	vim.opt.scrolloff = 8
 	vim.opt.swapfile = false
 	vim.opt.hlsearch = false
-  vim.opt.shiftwidth = 2
-  vim.opt.softtabstop = 2
-  vim.opt.tabstop = 2
-
-
 	vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 	vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 end

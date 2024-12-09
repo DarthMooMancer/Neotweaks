@@ -3,6 +3,7 @@ A simple plugin that adds/changes features that I think should be default for ne
 
 The options that were changed were
 ```
+- termguicolors = true
 - completeopt = { "menuone", "noselect", "noinsert", "popup" }
 - mouse = ""
 - number = true
@@ -13,9 +14,6 @@ The options that were changed were
 - scrolloff = 8
 - swapfile = false
 - hlsearch = false
-- shiftwidth = 2
-- softtabstop = 2
-- tabstop = 2
 ```
 I also added some keybinds that allow moving a line up or down, which I use in my workflow all the time
 ```
@@ -30,11 +28,13 @@ Lazy.nvim
 
 ```
 return {
-    "DarthMooMancer/Neotweaks",
-    config = function ()
-        require('Neotweaks').setup()
-    end
+    "DarthMooMancer/Neotweaks"
 }
+```
+In your init.lua, you need to have the plugin above everything, being that you require it first.
+
+```
+require('Neotweaks').setup()
 ```
 
 Plug
