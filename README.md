@@ -16,8 +16,6 @@ The options that were changed were
 - shiftwidth = 2
 - softtabstop = 2
 - tabstop = 2
-
-
 ```
 I also added some keybinds that allow moving a line up or down, which I use in my workflow all the time
 ```
