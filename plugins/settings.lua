@@ -1,4 +1,3 @@
-vim.opt.termguicolors = true
 vim.opt.completeopt = { "menuone", "noselect", "noinsert", "popup" }
 vim.opt.mouse = ""
 vim.opt.number = true
