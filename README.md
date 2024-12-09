@@ -1,4 +1,4 @@
-# Neotweaks // Indent set to 2 
+# Neotweaks // termguicolors 
 A simple plugin that adds/changes features that I think should be default for neovim. It adds a few sets and keybinds.
 
 The options that were changed were
