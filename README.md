@@ -1,6 +1,11 @@
 # Neotweaks
 A simple plugin that adds/changes features that I think should be default for neovim. It adds a few sets and keybinds.
 
+# Why?
+The main reason I made this was because I like my neovim config to be minimal and lightweight. Just kidding, but seriously I have these as my defaults and thought some others would like a few from here to. It more of a QoL for neovim than an actual plugin. It is meant for people who are lazy, new to neovim and want some base settings and me (lazy and trying to make my neovim config look smaller than it is).
+
+Some things changed!
+--------------------
 The options that were changed were
 ```
 - completeopt = { "menuone", "noselect", "noinsert", "popup" }
