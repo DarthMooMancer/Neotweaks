@@ -13,6 +13,9 @@ local function main()
 	vim.opt.hlsearch = false
 	vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 	vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+	vim.opt.shiftwidth = 2
+	vim.opt.softtabstop = 2
+	vim.opt.tabstop = 2
 end
 
 local function setup()
