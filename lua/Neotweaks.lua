@@ -13,6 +13,7 @@ local function main()
 	vim.opt.hlsearch = false
 	vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 	vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+	vim.g.mapleader = " "
 end
 
 local function setup()
